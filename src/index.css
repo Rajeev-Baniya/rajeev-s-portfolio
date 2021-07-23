@@ -208,23 +208,23 @@ li {
   margin-top: 25px;
 }
 /******** Media queries *********/
-@media screen and (max-height: 600px) {
+@media screen and (min-height: 600px) {
   .homee {
-    height: 110vh;
+    height: 90vh;
   }
   .aboutt {
-    height: 145vh;
+    height: 125vh;
   }
 
   .resumee {
-    height: 192vh;
+    height: 165vh;
   }
 
   .workss {
-    height: 239vh;
+    height: 210vh;
   }
   .contactss {
-    height: 102vh;
+    height: 90vh;
   }
 }
 
