@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/***** NavBarC ******/
+
+.padding {
+  margin: 7px;
+  letter-spacing: 3px;
+}
+.padding:hover {
+  color: orange;
+}
+
+/****** Home *******/
+.homee {
+  height: 90vh;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("images/dark.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: antiquewhite;
+  position: relative;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: antiquewhite;
+}
+
+.btnn {
+  position: relative;
+  top: 150px;
+}
+.btnn:hover {
+  color: orange;
+}
+
+.fab {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.fab:hover {
+  color: orange;
+}
+
+/*******About Me**********/
+.aboutt {
+  height: 113vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(62, 68, 51);
+  color: whitesmoke;
+  position: relative;
+}
+.about-content {
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  align-items: center;
+  text-align: center;
+}
+
+.myImage {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 1px solid goldenrod;
+  box-shadow: 0 0 3px 3px rgba(226, 235, 238, 0.5);
+  margin-bottom: 15px;
+}
+
+.description {
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-top: 2px;
+}
+
+.myHeading {
+  color: orange;
+  letter-spacing: 2px;
+}
+
+/******* Resume ********/
+.resumee {
+  height: 172vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(246, 248, 241);
+  color: rgb(19, 18, 18);
+  position: relative;
+  text-align: center;
+}
+
+.resume-content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.edu {
+  text-decoration: underline blueviolet;
+  text-underline-position: under;
+  margin-bottom: 25px;
+}
+
+li {
+  opacity: 0.5;
+}
+
+.dsc {
+  font-style: italic;
+}
+
+/*******Works**********/
+.workss {
+  height: 135vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(31, 31, 24);
+  color: rgb(238, 218, 218);
+  position: relative;
+  text-align: center;
+}
+
+.works-content {
+  margin-top: 30px;
+  display: flex;
+
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  text-align: center;
+}
+
+/******************Contacts ***********************/
+.contactss {
+  height: 92vh;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(49, 49, 10);
+  color: rgb(238, 218, 218);
+  position: relative;
+  text-align: center;
+}
+
+.contacts-content {
+  margin-top: 30px;
+  display: flex;
+
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.developed {
+  font-size: 1.2rem;
+  opacity: 0.5;
+  margin-top: 25px;
+}
+/******** Media queries *********/
+@media screen and (max-height: 600px) {
+  .homee {
+    height: 110vh;
+  }
+  .aboutt {
+    height: 145vh;
+  }
+
+  .resumee {
+    height: 192vh;
+  }
+
+  .workss {
+    height: 239vh;
+  }
+  .contactss {
+    height: 102vh;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
