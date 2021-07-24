@@ -36,7 +36,9 @@ const Contacts = () => {
               <i class="fab fa-linkedin fa-3x"></i>
             </a>
           </div>
+          <br />
           <hr />
+          <br />
         </div>
         <a href="#home" title="go to the top">
           <i class="fas fa-angle-double-up fa-5x fab"></i>

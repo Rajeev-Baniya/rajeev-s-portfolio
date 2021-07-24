@@ -116,7 +116,7 @@ code {
 
 /******* Resume ********/
 .resumee {
-  height: 172vh;
+  height: 178vh;
   padding: 0;
   margin: 0;
   background-color: rgb(246, 248, 241);
@@ -208,7 +208,7 @@ li {
   margin-top: 25px;
 }
 /******** Media queries *********/
-@media screen and (min-height: 600px) {
+@media screen and (max-width: 768px) {
   .homee {
     height: 90vh;
   }
@@ -221,7 +221,7 @@ li {
   }
 
   .workss {
-    height: 210vh;
+    height: 205vh;
   }
   .contactss {
     height: 90vh;

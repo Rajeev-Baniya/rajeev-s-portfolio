@@ -53,7 +53,9 @@ const Works = () => {
               );
             })}
           </div>
+          <br />
           <hr />
+          <br />
           <a
             href="https://github.com/Rajeev-Baniya"
             target="_blank"
